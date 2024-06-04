@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #171717;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.video-section {
+    margin: 20px 0;
+}
+
+.quote-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 0;
+    color: #ff400b;
+}
+
+.quote-section img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.biography-section, .adore-section {
+    padding: 20px;
+    background-color: #ff610b;
+    margin: 20px 0;
+    color:rgb(255, 237, 200);
+}
+
+.biography-section h2, .adore-section h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.biography-section p, .adore-section p {
+    font-size: 19px;
+    line-height: 1.6;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
